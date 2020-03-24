@@ -52,4 +52,4 @@ conda install git numpy scipy pandas matplotlib notebook
 
 Install the project in development mode by running `python setup.py develop`. If you use notebooks, this will ensure that you can access your modules.
 
-Edit this file to describe your actual project.
+Our actual project is going to analyze the MM macaque premotor and motor cortex neuron firings during a reach task using a spike train model. The goal is to measure the temporal variation of the neural data in both regions of the brain during the task. The kinematics of the reach task is measured through position, velocity, and acceleration in the x- and y- direction. We hope to organize this kinematic data in 10ms time bins to look at how these parameters varied over time within this macaque. Overall, the neural and kinematic data will provide us with information about what occurs in the brain during a reaching task.  
